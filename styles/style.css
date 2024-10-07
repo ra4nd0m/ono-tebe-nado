@@ -288,6 +288,7 @@
     margin-left: 51px;
     margin-top: 180px;
     margin-right: 50px;
+    margin-bottom: 88px;
     display: flex;
     justify-content: space-between;
 }
@@ -304,6 +305,7 @@
     flex-direction: column;
     text-align: center;
     list-style: none;
+    padding-left: 36px;
 }
 
 .footer__menu-link {
