@@ -20,14 +20,12 @@
         <li class="header__links-list-item"><a href="#" class="header__link">об аукционе</a></li>
       </ul>
     </div>
-    <div class="header__logo">
-      <a class="header__logo-link" href="#">
-        <img src="images/logo-black.svg" class="header__logo-img" alt="Логотип сайта черного цвета" />
-      </a>
-    </div>
-    <address class="header__info">
-      <a href="tel:+99995555555" class="header__info-link">+9 999 555 5555</a>
-      <a href="mailto:info@sobaka.ge" class="header__info-link">info@sobaka.ge</a>
+    <a class="header__logo-link" href="#">
+      <img src="images/logo-black.svg" class="header__logo-img" alt="Логотип сайта черного цвета" />
+    </a>
+    <address class="header__info info-list">
+      <a href="tel:+99995555555" class="info-link">+9 999 555 5555</a>
+      <a href="mailto:info@sobaka.ge" class="info-link">info@sobaka.ge</a>
       <p>наб. Принсенграхт 263-<br>265, Амстердам</p>
     </address>
   </header>
@@ -58,7 +56,7 @@
       <h2 class="lots__header">лоты</h2>
       <ul class="lots__card-list">
         <li class="lots__card-list-item"><a class="lots__card-list-item-link">
-            <article class="lots__card card-first">
+            <article class="lots__card card-director">
               <div class="lots__card__background-layer">
                 <h3 class="lots__card-title">Фильм режиссёра, который бросил киношколу</h3>
                 <p class="lots__card-text">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы
@@ -68,7 +66,7 @@
             </article>
           </a></li>
         <li class="lots__card-list-item"><a class="lots__card-list-item-link">
-            <article class="lots__card card-second">
+            <article class="lots__card card-ulissus">
               <div class="lots__card__background-layer">
                 <h3 class="lots__card-title">Книга, где описан один скучный день из жизни рекламного агента</h3>
                 <p class="lots__card-text">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами
@@ -83,7 +81,7 @@
             </article>
           </a></li>
         <li class="lots__card-list-item"><a class="lots__card-list-item-link">
-            <article class="lots__card card-third">
+            <article class="lots__card card-kandinsky">
               <div class="lots__card__background-layer">
                 <h3 class="lots__card-title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
                 <p class="lots__card-text">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на
@@ -100,25 +98,30 @@
       <div class="about__logo">
         <img class="about__logo-image" src="./images/logo-white.svg" alt="Логотип сайта белого цвета">
       </div>
-      <div class="about__text">
+      <article class="about__text">
         <h2 class="about__header">Об аукционе</h2>
-        <p class="about__paragraph">Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата.
-          Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка
-          или картина, которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные
-          любителями? <br><br>Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах
-          растерзанные
-          критиками.
-          Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря
-          на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить современную
-          культуру. Когда в эти вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты стали культовыми.
-        </p>
-      </div>
+        <div class="about__text-content">
+          <p>Здесь вы не встретите очередное пафосное собрание невероятно дорогого
+            антиквариата.
+            Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка
+            или картина, которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные
+            любителями?</p>
+          <p>Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах
+            растерзанные
+            критиками.
+            Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря
+            на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить современную
+            культуру. Когда в эти вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты стали
+            культовыми.
+          </p>
+        </div>
+      </article>
     </section>
   </main>
   <footer class="footer">
-    <address class="footer__info">
-      <a href="tel:+99995555555" class="header__info-link">+9 999 555 5555</a>
-      <a href="mailto:info@sobaka.ge" class="header__info-link">info@sobaka.ge</a>
+    <address class="info-list">
+      <a href="tel:+99995555555" class="info-link">+9 999 555 5555</a>
+      <a href="mailto:info@sobaka.ge" class="info-link">info@sobaka.ge</a>
       <p>наб. Принсенграхт 263-<br>265, Амстердам</p>
     </address>
     <nav class="footer__menu">
@@ -144,4 +147,5 @@
     </ul>
   </footer>
 </body>
+
 </html>

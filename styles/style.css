@@ -40,30 +40,30 @@
     text-decoration: none;
 }
 
-.header__logo {
+.header__logo-link {
     max-width: 148px;
     max-height: 105px;
-}
-
-.header__logo-link {
     display: block;
 }
 
 .header__logo-img {
-    width: 135%px;
+    width: 135px;
     height: 104px;
 }
 
 .header__info {
     margin-right: 60px;
-    display: flex;
     margin-left: auto;
-    flex-direction: column;
-    line-height: 135%;
-    font-style: normal;
 }
 
-.header__info-link {
+.info-list {
+    display: flex;
+    flex-direction: column;
+    font-style: normal;
+    line-height: 135%;
+}
+
+.info-link {
     text-underline-offset: 4px;
 }
 
@@ -182,13 +182,14 @@
 .lots__card-list {
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    gap: 1px;
+    gap: 20px;
 }
 
 .lots__card {
     width: 334px;
-    height: 563px;
+    min-height: 563px;
     background-size: cover;
     background-position: center;
 }
@@ -198,6 +199,7 @@
     padding-left: 40px;
     padding-right: 39px;
     padding-top: 51px;
+    min-height: 563px;
     padding-bottom: 48px;
     height: 100%;
     display: flex;
@@ -221,15 +223,15 @@
     font-weight: 400;
 }
 
-.card-first {
+.card-director {
     background-image: url(./../images/card-lot-01.jpg);
 }
 
-.card-second {
+.card-ulissus {
     background-image: url(./../images/card-lot-02.jpg);
 }
 
-.card-third {
+.card-kandinsky {
     background-image: url(./../images/card-lot-03.jpg);
 }
 
@@ -267,7 +269,8 @@
 
 .about__text {
     padding-top: 101px;
-    width: 696px;
+    max-width: 696px;
+    width: 100%;
 }
 
 .about__header {
@@ -276,13 +279,14 @@
     text-transform: uppercase;
 }
 
-.about__paragraph {
+.about__text-content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
     padding-top: 100px;
     font-size: 20px;
     font-weight: 400;
 }
-
-
 
 .footer {
     margin-left: 51px;
@@ -293,12 +297,6 @@
     justify-content: space-between;
 }
 
-.footer__info {
-    display: flex;
-    flex-direction: column;
-    line-height: 135%;
-    font-style: normal;
-}
 
 .footer__menu-list {
     display: flex;
